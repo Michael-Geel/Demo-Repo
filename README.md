@@ -63,3 +63,5 @@ Attempting to push once more to confirm all is a success (will attemp without VP
 Successfully pushed to GitHub. Issues resolved.
 
 Pushes are still being made using old git account. Need to see how to swap accounts so that git activity is correctly recorded.
+
+Attempt 1 to set account to new credentials.
