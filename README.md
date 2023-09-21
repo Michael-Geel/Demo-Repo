@@ -21,6 +21,8 @@ Use "git commit -m "Insert message here."" to commit.
 
 With git commits, you can have 2 -m's in the commit line, the first -m is the commit "title", the second -m is the description.
 Note git commit only saves the changes locally, the updates aren't live yet.
-For the we need git push.
+For that we need git push.
 
 Going to commit here on this code, then will re-commit when time to push.
+
+Use git push to send updates to the live environment repository where the project is hosted.
