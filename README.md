@@ -68,3 +68,5 @@ Attempt 1 to set account to new credentials.
 Testing successful account change.
 
 It appears my account has successfully changed in git, however now my name is not showing up in github...?
+-The commits do appear on the correct account and do count towards my metrics (commits made today), just no name in the logs.
+-Will ahve to run this by Mat to see what's going on.
