@@ -26,3 +26,4 @@ For that we need git push.
 Going to commit here on this code, then will re-commit when time to push.
 
 Use git push to send updates to the live environment repository where the project is hosted.
+Attempting git push here failed. Need to learn the missing material necessary to successfully complete the push.
