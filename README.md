@@ -56,5 +56,8 @@ Have successfully pushed to live. Made following changes:
 -Still hadn't successfully run the add key command. (Keys auto detected?)
 -Created a new key to use.
 -Set ssh to manually start via the services app.
+-changed the "master" argument to "main" as it refers to the branch being pushed to.
 
 Attempting to push once more to confirm all is a success (will attemp without VPN)
+
+Successfully pushed to GitHub. Issues resolved.
