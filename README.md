@@ -49,3 +49,12 @@ May need to look at navigating through directories to the key.
 
 For a git push, need two arguments: origin and master.
 Origin identifies the location of our git repository and master is the branch we want to push to.
+
+Have successfully pushed to live. Made following changes:
+-On VPN
+-Deleted old account credentials from windows managed accounts.
+-Still hadn't successfully run the add key command. (Keys auto detected?)
+-Created a new key to use.
+-Set ssh to manually start via the services app.
+
+Attempting to push once more to confirm all is a success (will attemp without VPN)
