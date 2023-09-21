@@ -65,3 +65,4 @@ Successfully pushed to GitHub. Issues resolved.
 Pushes are still being made using old git account. Need to see how to swap accounts so that git activity is correctly recorded.
 
 Attempt 1 to set account to new credentials.
+Testing successful account change.
