@@ -61,3 +61,5 @@ Have successfully pushed to live. Made following changes:
 Attempting to push once more to confirm all is a success (will attemp without VPN)
 
 Successfully pushed to GitHub. Issues resolved.
+
+Pushes are still being made using old git account. Need to see how to swap accounts so that git activity is correctly recorded.
