@@ -27,3 +27,25 @@ Going to commit here on this code, then will re-commit when time to push.
 
 Use git push to send updates to the live environment repository where the project is hosted.
 Attempting git push here failed. Need to learn the missing material necessary to successfully complete the push.
+
+In order to push to GitHub under your account, you need to prove to GitHub that you're the owner of your account.
+Have to connect local machine to GitHub account, and this is done using SSH keys.
+Start by generating a SSH Key locally using the "ssh-keygen" command
+You need to specify the type of encryption(-t), strength of encryption(-b), and finally at end include your GitHub email address.
+The full command will look like this: ssh-keygen -t rsa -b 4096 -C "xy@domain.com"
+It'll then ask for a file name with which to save the key, will default into your user folder/.ssh.id_rsa.
+You can also provide a passphrase for your key (it is completely optional)
+It'll generate to key files: file and file.pub.
+-file.pub you upload to your GitHub interface. (pub = public, meaning it's your public key and is okay for others to see said key.)
+-The file generated without .pub is your private key
+You put your public key on GitHub, then every time you want to connect to GitHub or push your code or use account via local machine, use
+your private key to show GitHub that you're the one the generated the public key.
+View public key with command: cat "keyname".pub
+Copy that entire key (from ssh-rsa to end of email address) Highlighting autocopies it as ctrl+c does something different in terminal.
+Nav to GitHub and go to settings, select SSH and GPG keys and add the key there.
+All that's left is to ensure then that your local git command line interface knows about the key you just generated.
+-Note: open checking about starting ssh, there seems to be errors, however could generate a key in SSH, so will continue to run a push attempt.
+May need to look at navigating through directories to the key.
+
+For a git push, need two arguments: origin and master.
+Origin identifies the location of our git repository and master is the branch we want to push to.
