@@ -66,3 +66,5 @@ Pushes are still being made using old git account. Need to see how to swap accou
 
 Attempt 1 to set account to new credentials.
 Testing successful account change.
+
+It appears my account has successfully changed in git, however now my name is not showing up in github...?
