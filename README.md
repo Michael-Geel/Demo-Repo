@@ -72,3 +72,12 @@ It appears my account has successfully changed in git, however now my name is no
 -Will have to run this by Mat to see what's going on.
 
 Confirming connection.
+
+Opting to continue with the no-name issue present. Resuming Notes here starting from beginning of the "Git Push" portion of video.
+
+For a git push, need two arguments: origin and master.
+Origin identifies the location of our git repository and master is the branch we want to push to.
+Master refers to the branch we're pushing to (will refer back to this.)
+
+Will now look at creating a new repo locally.
+See Demo-Repo2 for the continuation of the push notes.
